@@ -1,0 +1,103 @@
+      <ion-view view-title="Internkatta Starter">
+        <ion-nav-buttons side="left">
+          <button class="button button-positive button-clear no-animation"
+                  ng-click="startApp()" ng-show="!slideIndex" id="starterbutton">
+            Skip
+          </button>
+          <button class="button button-positive button-clear no-animation"
+                  ng-click="previous()" ng-show="slideIndex > 0" id="starterbutton">
+            Back
+          </button>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right"> 
+          <button class="button button-positive button-clear no-animation"
+                  ng-click="next()" ng-show="slideIndex != 3" id="starterbutton">
+            Next
+          </button>
+          <button class="button button-positive button-clear no-animation"
+                  ng-click="startApp()" ng-show="slideIndex == 3" id="starterbutton">
+            Start
+          </button>
+        </ion-nav-buttons>
+        <ion-slide-box on-slide-changed="slideChanged(index)">
+          <ion-slide  style="background-color: #8a6de9">
+            <h3 id="slide1h3" class="animated bounceInDown">Thank you for choosing the InternKatta!</h3>
+            <div>
+            <div id="logo">
+              <img src="img/Untitledpng.png" width="90%"  class="animated pulse">
+            </div>
+            <p class="animated bounceInRight" id="p1">
+              <b>We've worked super hard to make your Internship in hand.</b>
+            </p>
+            <p class="animated bounceInLeft" id="p2">
+              Find Internships with ease.
+            </p>
+            </div>
+          </ion-slide>
+          
+          <ion-slide>
+            <h3>Using InternKatta</h3><br>
+            <div id="card" class="card1">
+              <div class="item item-text-wrap">         
+                <div class="row">
+                  <div class="col col-100">
+                    <h5 class="animated flash" id="ph5">Just Note these few things:</h5>
+                  </div>
+                </div>
+              </div>
+            </div><br>
+            <div id="card" class="card2">
+              <div class="item item-text-wrap">         
+                <div class="row">
+                  <div class="col col-100">
+                  <ul><br>
+                    <li>You should be in final semester of your course.</li><br><br>
+                    <li>You will be student of Mumbai and Pune Govt. affiliated University.</li><br><br>
+                    <li>You have some knowledge about your key skill area.</li><br>
+                  </ul>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <img src="img/intern2.png" style="width:100%;height:40%;">          
+          </ion-slide>
+
+          <ion-slide>
+            <h3>You can share your queries on our site below</h3><br>
+            <p style="margin-top:10%">
+              internkatta.com<a href="http://www.internkatta.com"><img src="img/unnamed.png" width="15" height="15"></a>
+            </p><br>
+            <p style="margin-top:10%">
+              blog.internkatta.com<a href="http://www.blog.internkatta.com"><img src="img/unnamed.png" width="15" height="15"></a>
+            </p>
+            <p style="margin-top:20%">
+              Follow us on Socialite<br><br>
+              <a href="https://www.facebook.com"><img class="animated pulse" id="a1fb" src="img/fb.png" width="60" height="60"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.twitter.com"><img class="animated pulse" id="a1tw" src="img/twitter.png" width="60" height="60"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.google.com"><img class="animated pulse" id="a1gp" src="img/google.png" width="60" height="60"></a><br><br>
+              
+            </p>
+            <img src="img/choices-resized.jpg" style="width:100%;height:40%;">
+          </ion-slide>
+          <ion-slide>
+            <h3>Race for our service with extreme features on these platform</h3>
+            <img src="img/race.png" style="width:100%;height:50%;margin-top:10%">
+            <p style="margin-top:10%">
+              <!-- <button class="button button-positive button-clear animation"
+                  ng-click="startApp()">
+                Start Internkatta
+              </button> -->
+            </p>
+            <div class="cardgo">
+<!--               <div class="headergo"> -->
+                <h1>InternKatta</h1>
+              <!-- </div> -->
+
+              <div class="containergo">
+                <p><button class="button button-positive button-clear animation"
+                  ng-click="startApp()">Start</button></p>
+              </div>
+            </div>
+          </ion-slide>          
+        </ion-slide-box>
+      </ion-view>

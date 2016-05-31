@@ -1,0 +1,77 @@
+#starterbutton{
+	/*color: #993FB4;*/
+	color: black;
+}
+#slide1h3{
+	margin-top:10%;
+	animation-delay: 0.3s;
+}
+#logo{
+	 margin-top:10%;
+}
+#logo img{
+	animation-delay: 2.9s;
+}
+#p1{
+	font-family: cursive;
+
+	animation-delay: 1.1s;
+}
+#p2{
+	font-family: cursive;
+	font-size: 20px;
+
+	animation-delay: 1.9s;
+}
+#ph5{
+	color: #993FB4;
+	width: 100%;
+	font-size: 28px;
+	animation-duration: 3.0s;
+	animation-delay: 4.0s;	
+	animation-iteration-count: infinite;
+}
+#a1fb{
+		animation-duration: 2.0s;
+	animation-iteration-count: infinite;
+}
+#a1tw{
+		animation-duration: 2.2s;
+	animation-iteration-count: infinite;
+}
+#a1gp{
+		animation-duration: 2.4s;
+	animation-iteration-count: infinite;
+}
+div.cardgo {
+  width: 100%;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.headergo {
+    background-color: #993FB4;
+    color: white;
+    padding: 2px;
+    font-size: 16px;
+}
+
+div.containergo {
+    padding: 2px;
+}
+#example1{
+    background:url(img_flwr.gif);
+    background-repeat: no-repeat;
+    padding:15px;	
+}
+div.card1{
+  width: 100%;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;	
+}
+div.card2{
+	padding: 0;
+	border: 0px;
+	outline: none;
+background: none;
+}
